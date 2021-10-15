@@ -11,7 +11,7 @@ public class HelloController {
 	public ModelAndView redirectTo() {
 		ModelAndView MV = new ModelAndView();
 		MV.setViewName("hello");
-		MV.addObject("message", "Mensaje desde un controlador");
+		MV.addObject("message", "Mensaje desde un controlador git Hub!");
 		return MV;
 	}
 	
